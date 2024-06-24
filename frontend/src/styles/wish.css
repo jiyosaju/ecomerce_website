@@ -1,0 +1,58 @@
+.wish-nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    font-size: 20px;
+    font-weight: 500;
+    background-color:var(--body_background);
+    margin-bottom: 1rem;
+    align-items: center !important;
+    padding: 1rem 8rem 0 1rem;
+    box-shadow: 10px 5px 10px 3px rgb(234, 255, 0);
+}
+.link {
+    text-decoration: none;
+    color:var(--body_color);
+}
+
+
+/*-------------------------------cart table--------------------------------------------------*/
+
+.table{
+    margin-top: 2rem;
+    padding-right: 5rem !important;
+    padding-right: 5rem !important;
+    background-color: cadetblue;
+   
+}
+.qinput{
+height: 3rem;
+width: 4rem;
+padding: .5rem;
+}
+.amountBox{
+    width: 100%;
+    padding-left: 60rem;
+    margin-top: 5rem;
+    font-weight: 600;
+}
+.amountBox1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.buy{
+    position: absolute;
+    right: 18%;
+}
+:root{
+    --body_background:white;
+     --body_color:black;
+}
+[data-theme="dark"]{
+    --body_background:#282c34;
+     --body_color:white;
+}
+*{
+    transition: all 0.2s ease-in-out;
+}

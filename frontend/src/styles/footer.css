@@ -1,0 +1,47 @@
+/* Footer.css */
+.footer-container {
+    background-color:var(--body_background);
+    color: var(--body_color);
+    padding: 30px 0;
+    box-shadow: 10px 10px 10px 20px rgb(61, 237, 237);
+    
+    
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    font-size: 1.5rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-bottom {
+    background-color: var(--body_background);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+}
