@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+
+
+.containerr{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(30deg, #d9f922 60%, #0df724 40.1%);
+}
+
+.containerr form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.containerr form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.containerr form .row .col{
+  flex:1 1 250px;
+}
+
+.containerr form .row .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.containerr form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.containerr form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.containerr form .row .col .inputBox input{
+  width: 100%;
+  border:2px solid darkslategray;
+  border-radius: 10px;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.containerr form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.containerr form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.containerr form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.containerr form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.containerr form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: black;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.containerr form .submit-btn:hover{
+  background: #2ecc71;
+}
